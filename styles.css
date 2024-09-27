@@ -387,3 +387,54 @@ body {
     font-size: 16px;
     color: #dcdcdc;
 }
+
+/* Alpha And Beta Section */
+.alpha-section, .beta-section, .stable-section {
+    padding: 60px 20px;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    margin-bottom: 50px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.alpha-section h2, .beta-section h2, .stable-section h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #ffffff;
+}
+
+.alpha-section p, .beta-section p, .stable-section p {
+    font-size: 18px;
+    color: #dcdcdc;
+    margin-bottom: 40px;
+}
+
+.alpha-section, .beta-section, .stable-section {
+    background-color: #e74c3c;
+    color: #ffffff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0 4px 12px rgba(231, 76, 60, 0.3);
+    font-size: 18px;
+    margin: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.alpha-section,  .beta-section, .stable-section {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 16px rgba(231, 76, 60, 0.5);
+}
+
+/* rad-note */
+.note {
+    background-color: #ffeb3b; /* Yellow background for visibility */
+    color: #000; /* Black text color */
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2em;
+    position: relative;
+    z-index: 1000; /* Make sure it stays on top */
+}

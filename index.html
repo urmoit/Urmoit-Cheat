@@ -3,142 +3,113 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Urmoit Cheats - Home</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+    <title>Urmoit Cheats</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
 </head>
-<body>
-    <div class="header">
-        <div class="logo">Urmoit Cheats</div>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="download.html">Download</a>
-            <a href="faq.html">FAQ</a>
-            <a href="support.html">Support</a>
-            <a href="changelog.html">Website Changelog</a>
-        </nav>
-    </div>
-
-    <section class="hero-section">
-        <div class="hero-content">
-            <h1 class="title">Welcome to Urmoit Cheats</h1>
-            <p class="description">Enhance your gaming experience with our powerful cheats!</p>
-            <button class="download-button" onclick="window.location.href='download.html'">Download Now</button>
+<body class="font-inter antialiased bg-gray-900 text-white">
+    <!-- Header -->
+    <header class="bg-gray-800 py-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-3xl font-bold transition duration-300 ease-in-out hover:scale-110">Urmoit Cheats</h1>
+            <nav aria-label="Main Navigation">
+                <ul class="flex space-x-6 relative">
+                    <li><a href="index.html" class="hover:text-blue-400 transition duration-300 ease-in-out hover:scale-110">Home</a></li>
+    
+                    <!-- Download Dropdown with Arrow -->
+                    <li class="relative group">
+                        <a href="#" class="hover:text-blue-400 transition duration-300 ease-in-out hover:scale-110 flex items-center">
+                            Download <span class="ml-1">↓</span>
+                        </a>
+                        <ul class="absolute left-0 mt-2 w-48 bg-gray-700 shadow-lg rounded-lg opacity-0 group-hover:opacity-100 group-hover:visible transition duration-300 ease-in-out pointer-events-none group-hover:pointer-events-auto">
+                            <li><a href="download.html" class="block px-4 py-2 hover:bg-gray-600 hover:text-white transition duration-300 ease-in-out">Save Game Editor</a></li>
+                            <li><a href="#" class="block px-4 py-2 hover:bg-gray-600 hover:text-white transition duration-300 ease-in-out">Games Overlay (Coming Soon)</a></li>
+                        </ul>
+                    </li>
+    
+                    <li><a href="faq.html" class="hover:text-blue-400 transition duration-300 ease-in-out hover:scale-110">FAQ</a></li>
+                    <li><a href="changelog.html" class="hover:text-blue-400 transition duration-300 ease-in-out hover:scale-110">Website Changelog</a></li>
+                </ul>
+            </nav>
         </div>
+    </header>
+        
+
+    <!-- Hero Section -->
+    <section class="bg-gray-700 py-20 text-center">
+        <h2 class="text-4xl font-bold transition duration-300 ease-in-out hover:scale-110">Welcome to Urmoit Cheats</h2>
+        <h3 class="text-2xl font-bold transition duration-300 ease-in-out hover:scale-110">This Website Is Also In Beta, So Things May Change!</h3>
+        <p class="mt-4 text-lg transition duration-300 ease-in-out hover:scale-110">Enhance your gaming experience with our powerful cheats!</p>
+        <a href="download.html" class="mt-6 inline-block bg-blue-500 hover:bg-blue-600 text-white px-8 py-4 rounded-full transition duration-300 ease-in-out hover:scale-110">Download Urmoit Cheat Save Game Editor</a>
+        <a href="#" class="mt-6 inline-block bg-blue-500 hover:bg-blue-600 text-white px-8 py-4 rounded-full transition duration-300 ease-in-out hover:scale-110">Download Urmoit Cheat Games Overlay (Coming Soon)</a>
     </section>
 
-    <section id="features" class="features-section">
-        <h2>Features & Supported Games</h2>
-        <div class="tabs">
-            <button class="tab-button active" data-target="features-tab">Features</button>
-            <button class="tab-button" data-target="games-tab">Supported Games</button>
-        </div>
-        <div class="tab-content features-tab">
-            <div class="features-grid">
-                <div class="feature-card animated-card" data-tilt>
-                    <div class="card-content">
-                        <h3>Speed Hack</h3>
-                        <ul>
-                            <li>Boost your speed with our advanced speed hack technology.</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="feature-card animated-card" data-tilt>
-                    <div class="card-content">
-                        <h3>Aimbot</h3>
-                        <ul>
-                            <li>Improve your accuracy with our reliable aimbot.</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="feature-card animated-card" data-tilt>
-                    <div class="card-content">
-                        <h3>Wallhack</h3>
-                        <ul>
-                            <li>See through walls and never get caught off guard again.</li>
-                        </ul>
-                    </div>
-                </div>
+    <!-- Features Section -->
+    <section class="py-16">
+        <div class="container mx-auto text-center">
+            <h3 class="text-3xl font-bold mb-10 transition duration-300 ease-in-out hover:scale-110">Features & Supported Games</h3>
+            <div class="flex justify-center space-x-4 mb-8">
+                <button class="px-4 py-2 bg-gray-700 hover:bg-gray-600 rounded-lg transition duration-300 ease-in-out hover:scale-110">Features</button>
+                <button class="px-4 py-2 bg-gray-700 hover:bg-gray-600 rounded-lg transition duration-300 ease-in-out hover:scale-110">Supported Games (COMING SOON)</button>
             </div>
-        </div>
-        <div class="tab-content games-tab" style="display: none;">
-            <div class="features-grid">
-                <div class="game-card animated-card" data-tilt>
-                    <div class="card-content">
-                        <h3>Supermarket Simulator</h3>
-                        <ul>
-                            <li>Add money</li>
-                            <li>Add level</li>
-                            <li>Expand Store</li>
-                            <li>And more</li>
-                        </ul>
-                    </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Feature 1 -->
+                <div class="bg-gray-800 p-6 rounded-lg shadow-lg transition duration-300 ease-in-out hover:scale-110">
+                    <h4 class="text-2xl font-bold mb-4">(Unknown)</h4>
+                    <p>(Unknown)</p>
                 </div>
-                <div class="game-card animated-card" data-tilt>
-                    <div class="card-content">
-                        <h3>Phasmophobia (COMING SOON)</h3>
-                        <ul>
-                            <li>OverLay for game</li>
-                            <li>KeyBind to use the overlay when ur in game</li>
-                            <li>Helps to remember evidence</li>
-                            <li>And more</li>
-                        </ul>
-                    </div>
+
+                <!-- Feature 2 -->
+                <div class="bg-gray-800 p-6 rounded-lg shadow-lg transition duration-300 ease-in-out hover:scale-110">
+                    <h4 class="text-2xl font-bold mb-4">(Unknown)</h4>
+                    <p>(Unknown)</p>
+                </div>
+
+                <!-- Feature 3 -->
+                <div class="bg-gray-800 p-6 rounded-lg shadow-lg transition duration-300 ease-in-out hover:scale-110">
+                    <h4 class="text-2xl font-bold mb-4">(Unknown)</h4>
+                    <p>(Unknown)</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Updated Modern Footer -->
-    <section class="footer">
-        <div class="footer-content">
-            <div class="footer-section">
-                <h3>Urmoit Cheats</h3>
-                <p>Your go-to platform for the best cheats and gaming enhancements.</p>
+    <!-- Footer -->
+    <footer class="bg-gray-800 py-10">
+        <div class="container mx-auto flex flex-col md:flex-row justify-between">
+            <!-- Logo Section -->
+            <div>
+                <h2 class="text-3xl font-bold transition duration-300 ease-in-out hover :scale-110">Urmoit Cheats</h2>
+                <p class="mt-4 transition duration-300 ease-in-out hover:scale-110">Your go-to platform for the best cheats and gaming enhancements.</p>
             </div>
-            <div class="footer-section">
-                <h3>Quick Links</h3>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="download.html">Download</a></li>
-                    <li><a href="faq.html">FAQ</a></li>
-                    <li><a href="support.html">Support</a></li>
-                    <li><a href="changelog.html">Website Changelog</a></li>
-                    <li><a href="https://github.com/urmoit/Urmoit-Cheat">Open Source</a></li>
+
+            <!-- Quick Links -->
+            <div>
+                <h3 class="font-bold text-lg mb-4 transition duration-300 ease-in-out hover:scale-110">Quick Links</h3>
+                <ul class="space-y-2">
+                    <li><a href="#" class="hover:text-blue-400 transition duration-300 ease-in-out hover:scale-110">Home</a></li>
+                    <li><a href="#" class="hover:text-blue-400 transition duration-300 ease-in-out hover:scale-110">Download</a></li>
+                    <li><a href="#" class="hover:text-blue-400 transition duration-300 ease-in-out hover:scale-110">FAQ</a></li>
+                    <li><a href="#" class="hover:text-blue-400 transition duration-300 ease-in-out hover:scale-110">Support</a></li>
+                    <li><a href="#" class="hover:text-blue-400 transition duration-300 ease-in-out hover:scale-110">Open Source</a></li>
                 </ul>
             </div>
-            <div class="footer-section">
-                <h3>Follow Us</h3>
-                <div class="social-icons">
-                    <a href="https://www.youtube.com/@ChosenTechies"><img src="icons/youtube.png" alt="Youtube | Urmoit"></a>
-                    <a href="https://www.youtube.com/@urmoit/videos"><img src="icons/youtube.png" alt="Youtube | ChosenTechies"></a>
-                    <!-- <a href="#"><img src="icons/facebook.svg" alt="Facebook"></a>
-                    <a href="#"><img src="icons/twitter.svg" alt="Twitter"></a>
-                    <a href="#"><img src="icons/instagram.svg" alt="Instagram"></a> -->
-                </div>
+
+            <!-- Social Media -->
+            <div>
+                <h3 class="font-bold text-lg mb-4 transition duration-300 ease-in-out hover:scale-110">Follow Us</h3>
+                <a href="#" class="inline-block bg-red-600 hover:bg-red-700 text-white p-2 rounded-full transition duration-300 ease-in-out hover:scale-110">
+                    <img src="youtube-icon.svg" alt="YouTube" class="w-6 h-6">
+                </a>
             </div>
         </div>
-        <div class="footer-bottom">
-            <p>&copy; 2024 Urmoit Cheats. All rights reserved.</p>
+
+        <!-- Copyright Section -->
+        <hr class="my-8 border-gray-600">
+        <div class="text-center">
+            <p class="transition duration-300 ease-in-out hover:scale-110"> 2024 Urmoit Cheats. All rights reserved.</p>
         </div>
-    </section>
-
-    <script src="tilt.js"></script> <!-- External script for tilt effect -->
-    <script>
-        // JavaScript for handling tabs
-        document.querySelectorAll('.tab-button').forEach(button => {
-            button.addEventListener('click', () => {
-                document.querySelectorAll('.tab-button').forEach(btn => btn.classList.remove('active'));
-                button.classList.add('active');
-
-                const target = button.getAttribute('data-target');
-                document.querySelectorAll('.tab-content').forEach(content => content.style.display = 'none');
-                document.querySelector(`.${target}`).style.display = 'block';
-            });
-        });
-
-        // Set the Features tab to be default open
-        document.querySelector('.features-tab').style.display = 'block';
-    </script>
+    </footer>
 </body>
 </html>

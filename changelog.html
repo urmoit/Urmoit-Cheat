@@ -3,82 +3,122 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Urmoit Cheats - Download</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+    <title>Urmoit Cheats - Website Changelog</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    <div class="header">
-        <div class="logo">Urmoit Cheats</div>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="download.html">Download</a>
-            <a href="faq.html">FAQ</a>
-            <a href="support.html">Support</a>
-            <a href="changelog.html">Website Changelog</a>
-        </nav>
-    </div>
+<body class="bg-gray-900 text-white">
 
-    <section id="changelog" class="changelog-section">
-        <h2>Website Updates</h2>
-        <div class="changelog-grid">
-            <div class="changelog-entry animated-card" data-tilt>
-                <h3>Version 0.1.2 - September 2024</h3>
-                <ul>
-                    <li>Changed Page Style A Little</li>
-                    <li>Added Notes to Donwload Page</li>
+    <!-- Header -->
+    <header class="bg-gray-800 py-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-3xl font-bold transition duration-300 ease-in-out hover:scale-110">Urmoit Cheats</h1>
+            <nav aria-label="Main Navigation">
+                <ul class="flex space-x-6 relative">
+                    <li><a href="index.html" class="hover:text-blue-400 transition duration-300 ease-in-out hover:scale-110">Home</a></li>
+    
+                    <!-- Download Dropdown with Arrow -->
+                    <li class="relative group">
+                        <a href="#" class="hover:text-blue-400 transition duration-300 ease-in-out hover:scale-110 flex items-center">
+                            Download <span class="ml-1">↓</span>
+                        </a>
+                        <ul class="absolute left-0 mt-2 w-48 bg-gray-700 shadow-lg rounded-lg opacity-0 group-hover:opacity-100 group-hover:visible transition duration-300 ease-in-out pointer-events-none group-hover:pointer-events-auto">
+                            <li><a href="download.html" class="block px-4 py-2 hover:bg-gray-600 hover:text-white transition duration-300 ease-in-out">Save Game Editor</a></li>
+                            <li><a href="#" class="block px-4 py-2 hover:bg-gray-600 hover:text-white transition duration-300 ease-in-out">Games Overlay (Coming Soon)</a></li>
+                        </ul>
+                    </li>
+    
+                    <li><a href="faq.html" class="hover:text-blue-400 transition duration-300 ease-in-out hover:scale-110">FAQ</a></li>
+                    <li><a href="changelog.html" class="hover:text-blue-400 transition duration-300 ease-in-out hover:scale-110">Website Changelog</a></li>
                 </ul>
-            </div>
-            <div class="changelog-entry animated-card" data-tilt>
-                <h3>Version 0.1.1 - September 2024</h3>
-                <ul>
-                    <li>Released Alpha Version Whit 20 Licens Keys</li>
+            </nav>
+        </div>
+    </header>
+    
+    
+
+    <!-- Page Content -->
+    <section class="py-16">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-bold mb-10">Website Changelog</h2>
+            <p class="text-lg mb-12">Stay updated on all changes made to the Urmoit Cheats website.</p>
+
+            <!-- Changelog Entries -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
+                <h3 class="text-2xl font-bold mb-4">v0.1.3 (In Progress)</h3>
+                <ul class="list-disc list-inside">
+                    <li>Website redesign with Tailwind CSS</li>
+                    <li>New and improved website style</li>
+                    <li>Removed Alpha, Beta notices</li>
+                    <li>Mac Download button coming soon</li>
+                </ul>
+              </div>
+              <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
+                <h3 class="text-2xl font-bold mb-4">v0.1.2</h3>
+                <ul class="list-disc list-inside">
+                    <li>Changed page style slightly</li>
+                    <li>Added notes to the Download page</li>
+                </ul>
+              </div>
+              <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
+                <h3 class="text-2xl font-bold mb-4">v0.1.1</h3>
+                <ul class="list-disc list-inside">
+                    <li>Released Alpha Version with 20 License Keys</li>
                     <li>Updated Download Page</li>
                 </ul>
-            </div>
-            <div class="changelog-entry animated-card" data-tilt>
-                <h3>Version 0.1.0 - September 2024</h3>
-                <ul>
-                    <li>Website releases</li>
-                </ul>
-            </div>
-        </div>
-    </section>
-
-    <!-- Updated Modern Footer -->
-    <section class="footer">
-        <div class="footer-content">
-            <div class="footer-section">
-                <h3>Urmoit Cheats</h3>
-                <p>Your go-to platform for the best cheats and gaming enhancements.</p>
-            </div>
-            <div class="footer-section">
-                <h3>Quick Links</h3>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="download.html">Download</a></li>
-                    <li><a href="faq.html">FAQ</a></li>
-                    <li><a href="support.html">Support</a></li>
-                    <li><a href="changelog.html">Website Changelog</a></li>
-                    <li><a href="https://github.com/urmoit/Urmoit-Cheat">Open Source</a></li>
-                </ul>
-            </div>
-            <div class="footer-section">
-                <h3>Follow Us</h3>
-                <div class="social-icons">
-                    <a href="https://www.youtube.com/@ChosenTechies"><img src="icons/youtube.png" alt="Youtube | Urmoit"></a>
-                    <a href="https://www.youtube.com/@urmoit/videos"><img src="icons/youtube.png" alt="Youtube | ChosenTechies"></a>
-                    <!-- <a href="#"><img src="icons/facebook.svg" alt="Facebook"></a>
-                    <a href="#"><img src="icons/twitter.svg" alt="Twitter"></a>
-                    <a href="#"><img src="icons/instagram.svg" alt="Instagram"></a> -->
+              </div>
+                <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
+                    <h3 class="text-2xl font-bold mb-4">v0.1.0</h3>
+                    <ul class="list-disc list-inside">
+                        <li>Initial website release</li>
+                    </ul>
                 </div>
+
+        
             </div>
-        </div>
-        <div class="footer-bottom">
-            <p>&copy; 2024 Urmoit Cheats. All rights reserved.</p>
+
+            <!-- Upcoming Updates -->
+            <div class="mt-16">
+                <h3 class="text-3xl font-bold mb-6">Upcoming Updates</h3>
+                <p>Stay tuned for more exciting features and improvements!</p>
+            </div>
         </div>
     </section>
 
-    <script src="tilt.js"></script> <!-- External script for tilt effect -->
+    <!-- Footer -->
+    <footer class="bg-gray-800 py-10">
+        <div class="container mx-auto flex flex-col md:flex-row justify-between">
+            <!-- Logo Section -->
+            <div>
+                <h2 class="text-3xl font-bold">Urmoit Cheats</h2>
+                <p class="mt-4">Your go-to platform for the best cheats and gaming enhancements.</p>
+            </div>
+
+            <!-- Quick Links -->
+            <div>
+                <h3 class="font-bold text-lg mb-4">Quick Links</h3>
+                <ul class="space-y-2">
+                    <li><a href="index.html" class="hover:text-blue-400">Home</a></li>
+                    <li><a href="download.html" class="hover:text-blue-400">Download</a></li>
+                    <li><a href="faq.html" class="hover:text-blue-400">FAQ</a></li>
+                    <li><a href="https://github.com/urmoit/Urmoit-Cheat" class="hover:text-blue-400">Open Source</a></li>
+                </ul>
+            </div>
+
+            <!-- Social Media -->
+            <div>
+                <h3 class="font-bold text-lg mb-4">Follow Us</h3>
+                <a href="#" class="inline-block bg-red-600 hover:bg-red-700 text-white p-2 rounded-full">
+                    <img src="youtube-icon.svg" alt="YouTube" class="w-6 h-6">
+                </a>
+            </div>
+        </div>
+
+        <!-- Copyright Section -->
+        <hr class="my-8 border-gray-600">
+        <div class="text-center">
+            <p>© 2024 Urmoit Cheats. All rights reserved.</p>
+        </div>
+    </footer>
 </body>
 </html>

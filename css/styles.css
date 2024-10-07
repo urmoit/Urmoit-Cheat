@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+nav ul li a {
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    color: #48bb78; /* Change to your preferred hover color */
+    transform: translateY(-5px);
+  }
+  
+  nav ul li a.active {
+    color: #48bb78; /* Active button color */
+  }
+  
+  nav ul li a {
+    position: relative;
+  }
+  
+  nav ul li a::after {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 3px;
+    bottom: -5px;
+    left: 0;
+    background-color: #48bb78;
+    transition: width 0.3s ease;
+  }
+  
+  nav ul li a:hover::after,
+  nav ul li a.active::after {
+    width: 100%;
+  }

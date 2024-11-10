@@ -5,6 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Urmoit Cheats - {{PageTitle}}</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Rotate the arrow based on expanded state */
+        .rotate-0 {
+            transform: rotate(0deg);
+        }
+        .rotate-180 {
+            transform: rotate(180deg);
+        }
+    </style>
 </head>
 <body class="bg-gray-900 text-white">
 
@@ -30,25 +39,133 @@
     
 
     <!-- FAQ Page Content -->
-<section class="bg-gray-700 py-20 text-center">
-  <h2 class="text-4xl font-bold">Frequently Asked Questions</h2>
-  <p class="mt-4 text-lg">Find answers to the most common questions about Urmoit Cheats.</p>
+    <section class="bg-gray-700 py-20 text-center">
+        <h2 class="text-4xl font-bold">Frequently Asked Questions</h2>
+        <p class="mt-4 text-lg">Find answers to the most common questions about Urmoit Cheats.</p>
+    </section>
+
+    <!-- Urmoit Cheats: Save Game Editor Section -->
+<section class="bg-gray-800 py-20 text-center">
+    <div class="container mx-auto">
+        <h2 class="text-4xl font-bold">Urmoit Cheats: Save Game Editor</h2>
+
+        <div class="bg-gray-700 p-6 rounded-lg shadow-lg mb-6">
+            <div class="flex justify-between items-center cursor-pointer" onclick="toggleAnswer(this)">
+                <h4 class="text-2xl font-bold">What games are compatible with the Save Game Editor?</h4>
+                <svg class="w-6 h-6 text-white transform transition-transform duration-300 rotate-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                </svg>
+            </div>
+            <p class="mt-4 hidden">
+                The Urmoit Cheats: Save Game Editor is compatible with an extensive list of games that use save files, including popular titles from various genres. Each compatible game has been tested to ensure stable performance and ease of use with our editor. We constantly update our compatibility list to include new games, so make sure to check our website regularly to see if your favorite game is supported!
+            </p>
+        </div>
+
+        <div class="bg-gray-700 p-6 rounded-lg shadow-lg mb-6">
+            <div class="flex justify-between items-center cursor-pointer" onclick="toggleAnswer(this)">
+                <h4 class="text-2xl font-bold">How do I backup my save files?</h4>
+                <svg class="w-6 h-6 text-white transform transition-transform duration-300 rotate-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                </svg>
+            </div>
+            <p class="mt-4 hidden">
+                The Save Game Editor includes an integrated backup feature designed to be user-friendly. Before making any changes, you can simply select the "Backup Save File" option. This action will create a restore point that you can revert to at any time if you want to undo changes or if you encounter any issues after editing. We recommend backing up every time you edit a save file for complete peace of mind.
+            </p>
+        </div>
+
+        <div class="bg-gray-700 p-6 rounded-lg shadow-lg mb-6">
+            <div class="flex justify-between items-center cursor-pointer" onclick="toggleAnswer(this)">
+                <h4 class="text-2xl font-bold">Can I restore my game to its original state?</h4>
+                <svg class="w-6 h-6 text-white transform transition-transform duration-300 rotate-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                </svg>
+            </div>
+            <p class="mt-4 hidden">
+                Absolutely! With our backup feature, restoring your game to its original state is straightforward. After creating a backup file, you can revert to it anytime by selecting "Restore Backup." This option is especially useful if you want to undo specific changes or if you encounter unexpected issues. We ensure that each backup is saved separately, so you can freely experiment with edits knowing you can always return to a previous state.
+            </p>
+        </div>
+
+        <div class="bg-gray-700 p-6 rounded-lg shadow-lg mb-6">
+            <div class="flex justify-between items-center cursor-pointer" onclick="toggleAnswer(this)">
+                <h4 class="text-2xl font-bold">How do I install Urmoit Cheats: Save Game Editor?</h4>
+                <svg class="w-6 h-6 text-white transform transition-transform duration-300 rotate-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                </svg>
+            </div>
+            <p class="mt-4 hidden">
+                To install Urmoit Cheats: Save Game Editor, please visit our official <a href="https://www.youtube.com/watch?v=Uh_46CVi9wU" target="_blank" class="text-blue-400 hover:underline">YouTube installation guide</a>. The guide covers everything you need to know, from downloading the editor to installing it on your system. The step-by-step instructions are designed to make the process as smooth as possible, and we’re continuously updating our resources to help new users set up with ease.
+            </p>
+        </div>
+    </div>
 </section>
 
-<section class="py-16">
-  <div class="container mx-auto text-left">
-      <h3 class="text-3xl font-bold mb-8">Common Questions</h3>
-      <div class="bg-gray-800 p-6 rounded-lg shadow-lg mb-6">
-          <h4 class="text-2xl font-bold mb-4">What is Urmoit Cheats?</h4>
-          <p>Urmoit Cheats is a gaming enhancement tool that provides cheats like Speed Hack, Aimbot, and Wallhack to boost your gaming experience.</p>
-      </div>
+<!-- Urmoit Cheats: In-Game Overlays Section -->
+<section class="bg-gray-800 py-20 text-center">
+    <div class="container mx-auto">
+        <h2 class="text-4xl font-bold">Urmoit Cheats: In-Game Overlays</h2>
 
-      <div class="bg-gray-800 p-6 rounded-lg shadow-lg mb-6">
-          <h4 class="text-2xl font-bold mb-4">How do I install Urmoit Cheats?</h4>
-          <p>Simply download the software from the download page and follow the on-screen instructions for installation.</p>
-      </div>
-  </div>
+        <div class="bg-gray-700 p-6 rounded-lg shadow-lg mb-6">
+            <div class="flex justify-between items-center cursor-pointer" onclick="toggleAnswer(this)">
+                <h4 class="text-2xl font-bold">Is Urmoit Cheats: In-Game Overlay Released?</h4>
+                <svg class="w-6 h-6 text-white transform transition-transform duration-300 rotate-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                </svg>
+            </div>
+            <p class="mt-4 hidden">
+                We are actively developing Urmoit Cheats: In-Game Overlays to bring a fully functional and seamless experience for gamers. Our goal is to ensure smooth integration across a variety of games, enhancing gameplay with reliable and customizable overlays. While the program is still in development, we are committed to releasing regular updates and improvements based on user feedback, so stay tuned for new features and expanded support.
+            </p>
+        </div>
+
+        <div class="bg-gray-700 p-6 rounded-lg shadow-lg mb-6">
+            <div class="flex justify-between items-center cursor-pointer" onclick="toggleAnswer(this)">
+                <h4 class="text-2xl font-bold">How do I enable or disable the in-game overlay?</h4>
+                <svg class="w-6 h-6 text-white transform transition-transform duration-300 rotate-0" fill="none" viewBox="0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                </svg>
+            </div>
+            <p class="mt-4 hidden">
+                Enabling or disabling the overlay is easy! By default, pressing the assigned hotkey activates the overlay, allowing you to view information and tools right on your screen. You can customize this hotkey within the settings menu to fit your preferences. The feature is designed to be responsive and accessible, letting you control overlay visibility on-the-fly during gameplay.
+            </p>
+        </div>
+
+        <div class="bg-gray-700 p-6 rounded-lg shadow-lg mb-6">
+            <div class="flex justify-between items-center cursor-pointer" onclick="toggleAnswer(this)">
+                <h4 class="text-2xl font-bold">Can I customize the overlay’s appearance?</h4>
+                <svg class="w-6 h-6 text-white transform transition-transform duration-300 rotate-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                </svg>
+            </div>
+            <p class="mt-4 hidden">
+                Yes, customization is at the core of our In-Game Overlay. You can personalize its appearance, adjust colors, change the layout, and even modify the size of elements to make the overlay truly yours. Whether you want a minimalist setup or a feature-packed dashboard, the overlay adapts to your unique style and gameplay needs, making it an essential companion in any gaming session.
+            </p>
+        </div>
+
+        <div class="bg-gray-700 p-6 rounded-lg shadow-lg mb-6">
+            <div class="flex justify-between items-center cursor-pointer" onclick="toggleAnswer(this)">
+                <h4 class="text-2xl font-bold">Will the overlay affect my game performance?</h4>
+                <svg class="w-6 h-6 text-white transform transition-transform duration-300 rotate-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                </svg>
+            </div>
+            <p class="mt-4 hidden">
+                The overlay has been optimized to run smoothly with minimal impact on game performance. We understand the importance of high frame rates and low latency in gaming, so our overlay is lightweight and efficient. However, if you experience any slowdown, try adjusting overlay resolution, disabling non-essential features, or contacting support for assistance with your settings.
+            </p>
+        </div>
+
+        <div class="bg-gray-700 p-6 rounded-lg shadow-lg mb-6">
+            <div class="flex justify-between items-center cursor-pointer" onclick="toggleAnswer(this)">
+                <h4 class="text-2xl font-bold">How do I install Urmoit Cheats: In-Game Overlays?</h4>
+                <svg class="w-6 h-6 text-white transform transition-transform duration-300 rotate-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                </svg>
+            </div>
+            <p class="mt-4 hidden">
+                To install Urmoit Cheats: In-Game Overlays, please visit our comprehensive <a href="https://www.youtube.com/watch?v=YourVideoID" target="_blank" class="text-blue-400 hover:underline">YouTube installation guide</a>. The guide walks you through each step, from downloading the overlay to setting it up on your system. With easy-to-follow instructions and visual assistance, the guide is ideal for both new and experienced users.
+            </p>
+        </div>
+    </div>
 </section>
+
 
 
     <!-- Footer -->
@@ -78,7 +195,7 @@
                 <h3 class="font-bold text-lg mb-4">Follow Us</h3>
                 <ul class="space-y-2">
                     <li><a href="https://discord.gg/r3RWNpuV" class="hover:text-blue-400">Discord</a></li>
-                    <li><a href="https://www.youtube.com/@ChosenTechies" class="hover:text-blue-400">YouTube | ChosenTechies</a></li>
+                    <li><a href="https://www.youtube.com/@urmoit" class="hover:text-blue-400">YouTube | Urmoit</a></li>
                 </ul>
             </div>
         </div>
@@ -88,5 +205,15 @@
             <p>© 2024 Urmoit Cheats. All rights reserved.</p>
         </div>
     </footer>
+
+    <script>
+        function toggleAnswer(element) {
+            const answer = element.nextElementSibling;
+            const arrow = element.querySelector('svg');
+
+            answer.classList.toggle('hidden');
+            arrow.classList.toggle('rotate-180');
+        }
+    </script>
 </body>
 </html>

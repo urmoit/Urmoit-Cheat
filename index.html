@@ -3,123 +3,117 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Urmoit Cheats</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+    <title>Urmoit Studio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-<body class="font-inter antialiased bg-gray-900 text-white">
-    <!-- Header -->
-    <header class="bg-gray-800 py-4">
-        <div class="container mx-auto flex justify-between items-center">
-            <h1 class="text-3xl font-bold transition duration-300 ease-in-out hover:scale-110">Urmoit Cheats</h1>
-            <nav aria-label="Main Navigation">
-                <ul class="flex space-x-6 relative">
-                    <li><a href="index.html" class="hover:text-blue-400 transition duration-300 ease-in-out hover:scale-110">Home</a></li>
-                    <li><a href="download.html" class="hover:text-blue-400 transition duration-300 ease-in-out hover:scale-110">Download</a></li>
-                    <li><a href="faq.html" class="hover:text-blue-400 transition duration-300 ease-in-out hover:scale-110">FAQ</a></li>
-                    <li><a href="about.html" class="hover:text-blue-400 transition duration-300 ease-in-out hover:scale-110">About</a></li>
-                    <li><a href="changelog.html" class="hover:text-blue-400 transition duration-300 ease-in-out hover:scale-110">Website Changelog</a></li>
-                </ul>
-            </nav>
-        </div>
+<body>
+    <!-- Sticky Header -->
+    <header class="header">
+        <div class="logo">Urmoit Studio</div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="blogs.html">Blogs</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#about">About Us</a></li>
+            </ul>
+        </nav>
     </header>
 
     <!-- Hero Section -->
-    <section class="bg-gray-700 py-20 text-center">
-        <h2 class="text-4xl font-bold transition duration-300 ease-in-out">Welcome to Urmoit Cheats</h2>
-        <p class="mt-4 text-lg transition duration-300 ease-in-out">Enhance your gaming experience with our powerful cheat And Games Overlays App!</p>
-        <a href="download.html" class="mt-6 inline-block bg-blue-500 hover:bg-blue-600 text-white px-8 py-4 rounded-full transition duration-300 ease-in-out">Download Now</a>
-        <a href="#" class="mt-6 inline-block bg-blue-500 hover:bg-blue-600 text-white px-8 py-4 rounded-full transition duration-300 ease-in-out">Suggest Game (COMING SOON)</a>
-    </section>
-
-    <hr>
-
-    <!-- Features Section -->
-    <section class="py-16">
-        <div class="container mx-auto text-center">
-            <h3 class="text-3xl font-bold mb-10 transition duration-300 ease-in-out">Features</h3>
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-                <!-- Feature 1 -->
-                <div class="bg-gray-800 p-6 rounded-lg shadow-lg transition duration-300 ease-in-out hover:scale-110">
-                    <h4 class="text-2xl font-bold mb-4">Save Game Editor</h4>
-                    <p>Powerful Save Game Editor for multiple games</p>
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Welcome to <span class="highlight">Urmoit Studio</span></h1>
+            <p>Innovating games, apps, and mods for everyone.</p>
+            <div class="stats">
+                <div class="stat">
+                    <h2>6+</h2>
+                    <p>Ongoing Projects</p>
                 </div>
-
-                <!-- Feature 2 -->
-                <div class="bg-gray-800 p-6 rounded-lg shadow-lg transition duration-300 ease-in-out hover:scale-110">
-                    <h4 class="text-2xl font-bold mb-4">In-Game Overlays</h4>
-                    <p>Powerful Overlays for games like Phasmophobia and more</p>
+                <div class="stat">
+                    <h2>1K+</h2>
+                    <p>Community Members</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <hr>
+
+    <!-- Projects Section -->
+    <section class="links" id="projects">
+        <h2>Our Projects</h2>
+        <div class="link-container">
+            <a href="https://www.roblox.com/games/120230068540510/Dangerous-Bus-Driving-Alpha" class="animated-link">Dangerous Bus Driving (Alpha) - Roblox</a>
+            <a href="#" class="animated-link">FS22: Better Capacity For Vehicles</a>
+            <a href="https://www.kingmods.net/en/fs25/mods/57948/better-capacity-for-vehicles" class="animated-link">FS25: Better Capacity For Vehicles</a>
+            <a href="https://www.roblox.com/games/8649143744/Mining-INC-2-Alpha" class="animated-link">Mining Inc 2 - Roblox</a>
+            <a href="https://urmoit.github.io/Urmoit-Cheat/SaveGameEditor.html" class="animated-link">Urmoit Cheat: Save Game Editor</a>
+            <a href="https://www.curseforge.com/minecraft/modpacks/urmoits-adventure-2" class="animated-link">Urmoit's Adventure 2</a>
+            <a href="https://www.curseforge.com/minecraft/modpacks/urmoits-adventure" class="animated-link">Urmoit's Adventure</a>
+        </div>
+    </section>
+
+    <!-- On Hold Projects Section -->
+    <section class="links">
+        <h2>On Hold Projects</h2>
+        <div class="link-container">
+            <!-- <a href="#" class="animated-link">FS22: Better Capacity For Vehicles</a> -->
+        </div>
+    </section>
+
+    <!-- Coming Soon Projects Section -->
+    <section class="links">
+        <h2>Coming Soon Projects</h2>
+        <div class="link-container">
+            <a href="#" class="animated-link">FS25: Better Capacity For Mod Vehicles</a>
+            <a href="#" class="animated-link">Urmoit Cheat: In-Game Overlay</a>
+        </div>
+    </section>
 
     <!-- About Section -->
-    <section class="py-16 bg-gray-700 text-center">
-        <div class="container mx-auto">
-            <h3 class="text-3xl font-bold mb-6 transition duration-300 ease-in-out">About Us</h3>
-            <p class="text-lg max-w-2xl mx-auto mb-6">
-                Urmoit Cheats is a platform built by passionate gamers for gamers. Since our inception, we have been committed to enhancing the gaming experience by providing powerful tools and resources. Whether you’re looking for an efficient Save Game Editor, customizable in-game overlays, or unique cheats for specific games, Urmoit Cheats is dedicated to making your gaming journey smoother and more enjoyable.
-            </p>
-            <p class="text-lg max-w-2xl mx-auto mb-6">
-                Our team consists of dedicated developers and gamers who understand the importance of seamless gameplay. We work tirelessly to ensure our tools are up-to-date, compatible with the latest games, and easy to use. With each feature we release, our goal is to empower players to customize their gaming experiences to suit their style. The Save Game Editor, for instance, offers flexibility to edit values and tweak game states, while our game overlays provide real-time information and interactive cheats for popular games like <strong>Phasmophobia</strong> and many more.
-            </p>
-            <p class="text-lg max-w-2xl mx-auto mb-6">
-                This new name reflects our evolving identity and commitment to delivering even more innovative and powerful tools for our users. With ChosenTechies Cheats, expect expanded support for a wider array of games, more customization options, and enhanced features that cater to both casual players and hardcore gamers.
-            </p>
-            <p class="text-lg max-w-2xl mx-auto">
-                Join us on this journey as we continue to push the boundaries of what’s possible in gaming. We believe in providing tools that don’t just change the way you play but also enrich your experience by giving you control, insights, and unique advantages. Connect with us on Discord and YouTube to stay updated on new releases, give feedback, and be part of an enthusiastic community that’s as passionate about gaming as you are.
-            </p>
-        </div>
+    <section class="about" id="about">
+        <h2>About Urmoit Studio</h2>
+        <p><strong>Urmoit Studio</strong> is dedicated to delivering engaging <strong>gaming experiences</strong>, cutting-edge <strong>software tools</strong>, and creative <strong>mods</strong>. Explore our unique projects and become part of our journey.</p>
+        <p>Founded by a visionary developer, <strong>Urmo</strong>, Urmoit Studio began as a <strong>one-person effort</strong> to create innovative solutions for players and creators alike. With hard work and passion, it has grown into a <strong>community-driven platform</strong> that combines talent, creativity, and dedication.</p>
+        <p>Our projects range from immersive games like <strong>Mining Inc 2</strong> to powerful tools like <strong>Urmoit Cheat: Save Game Editor</strong>, as well as mods that enhance existing games. Urmoit Studio continues to push the boundaries of <strong>creativity</strong> and <strong>innovation</strong> in gaming and modding.</p>
+        <p>With a growing community of <strong>1,000+</strong> members, Urmoit Studio is more than just a name—it’s a testament to what one person can achieve with determination and a love for gaming. <strong>Join us</strong> as we shape the future of interactive entertainment!</p>
     </section>
 
 
-    <hr>
 
     <!-- Footer -->
-    <footer class="bg-gray-800 py-10">
-        <div class="container mx-auto flex flex-col md:flex-row justify-between">
-            <!-- Logo Section -->
-            <div>
-                <h2 class="text-3xl font-bold">Urmoit Cheats</h2>
-                <p class="mt-4">
-                    We create tools like Save Game Editors and in-game overlays to enhance your gaming experience. Join us for the best in gaming customization!
-                </p>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>Urmoit Studio</h3>
+                <p>Dedicated to crafting unique games, innovative tools, and engaging mods for gamers and creators worldwide. Join us as we redefine gaming with passion and creativity!</p>
             </div>
-
-            <!-- Quick Links -->
-            <div>
-                <h3 class="font-bold text-lg mb-4">Quick Links</h3>
-                <ul class="space-y-2">
-                    <li><a href="index.html" class="hover:text-blue-400">Home</a></li>
-                    <li><a href="download.html" class="hover:text-blue-400">Download</a></li>
-                    <li><a href="faq.html" class="hover:text-blue-400">FAQ</a></li>
-                    <li><a href="about.html" class="hover:text-blue-400">About</a></li>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Blogs</a></li>
+                    <li><a href="#">About</a></li>
                 </ul>
             </div>
-
-            <!-- Social Media -->
-            <div>
-                <h3 class="font-bold text-lg mb-4">Follow Us</h3>
-                <ul class="space-y-2">
-                    <li><a href="https://discord.gg/r3RWNpuV" class="hover:text-blue-400">Discord</a></li>
+            <div class="footer-section">
+                <h4>Follow Us</h4>
+                <ul>
+                    <li><a href="#">Discord</a></li>
                     <li><a href="https://www.youtube.com/@urmoit" class="hover:text-blue-400">YouTube</a></li>
                 </ul>
             </div>
             <div class="footer-section">
-                <h3 class="font-bold text-lg mb-4">Other Websites</h3>
-                <ul class="space-y-2">
-                    <li><a href="#" class="hover:text-blue-400">Urmoit Studio</a></li>
+                <h4>Other Websites</h4>
+                <ul>
+                    <li><a href="#">Urmoit Cheats</a></li>
                 </ul>
             </div>
         </div>
-
-        <hr class="my-8 border-gray-600">
-        <div class="text-center">
-            <p>© 2024 Urmoit Studio. All rights reserved.</p>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Urmoit Studio. All rights reserved.</p>
         </div>
-    </footer>
+    </footer>    
+
+    <script src="script.js"></script>
 </body>
 </html>
